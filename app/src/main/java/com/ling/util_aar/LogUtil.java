@@ -28,4 +28,24 @@ public class LogUtil {
     public static void w(String string) {
         Log.w(TAG, " " + string);
     }
+
+    public static void d(String TAG, String string) {
+        Log.d(TAG, TAG + " " + string);
+    }
+
+    public static void i(String TAG, String string) {
+        Log.i(TAG, TAG + " " + string);
+    }
+
+    public static void v(String TAG, String string) {
+        Log.v(TAG, TAG + " " + string);
+    }
+
+    public static void e(String TAG, String string) {
+        Log.e(TAG, TAG + " " + string);
+    }
+
+    public static void w(String TAG, String string) {
+        Log.w(TAG, TAG + " " + string);
+    }
 }
